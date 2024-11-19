@@ -1,6 +1,6 @@
 # AspireUpdate Translations
 
-Translators, everything here is automated tona larhe degree. You only need to translate on the GlotPress site. `.po` files will be extracted from there.  `.mo`, `.json`, and `.l10n.php` files will be generated automatically.
+Translators, everything here is automated to a large degree. You only need to translate on the GlotPress site. `.po` files will be extracted from there.  `.mo`, `.json`, and `.l10n.php` files will be generated automatically.
 
 AspireUpdate Translations uses [`Language_Pack_Maker`](https://github.com/afragen/language-pack-maker) installed via `composer` to create a directory of zip archives of the translation files (.mo/.po/.json/.l10n.php) and a `language-pack.json` file containing data to pass to Git Updater or afragen/translations-updater.
 
