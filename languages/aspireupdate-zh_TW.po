@@ -1,178 +1,225 @@
-# Translation of AspireUpdate in Chinese (Taiwan)
-# This file is distributed under the same license as the AspireUpdate package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-11 17:18:34+0000\n"
+"Project-Id-Version: AspireUpdate\n"
+"POT-Creation-Date: 2025-01-31 14:28-0800\n"
+"PO-Revision-Date: 2025-01-31 17:24-0800\n"
+"Last-Translator: Alex Lion <learnwithalex@gmail.com>\n"
+"Language-Team: Alex Lion <learnwithalex@gmail.com>\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/4.0.1\n"
-"Language: zh_TW\n"
-"Project-Id-Version: AspireUpdate\n"
-
-#: includes/views/page-admin-settings.php:19
-msgid "View Log"
-msgstr ""
-
-#: includes/views/page-admin-settings.php:18
-msgid "Clear Log"
-msgstr ""
-
-#: includes/class-debug.php:118
-msgid "Error: Unable to access the log file."
-msgstr ""
-
-#. translators: 1: The number of lines at which the content was truncated.
-#: includes/class-debug.php:102
-msgid "*****Log truncated at %s lines.*****"
-msgstr ""
-
-#: includes/class-debug.php:98
-msgid "*****Log file is empty.*****"
-msgstr ""
-
-#: includes/class-debug.php:85
-msgid "Error: Unable to read the log file."
-msgstr ""
-
-#: includes/class-controller.php:77
-msgid "Log file cleared successfully."
-msgstr ""
-
-#: includes/class-controller.php:61 includes/class-controller.php:91
-msgid "Error: You are not authorized to access this resource."
-msgstr ""
-
-#: includes/class-admin-settings.php:156
-msgid "Settings Saved"
-msgstr ""
-
-#. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:125
-msgid "Your WordPress, plugin, theme and translation updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr ""
-
-#. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:112
-msgid "Your theme updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr ""
-
-#. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:97
-msgid "Your plugin updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr ""
-
-#: includes/class-admin-settings.php:564
-msgid "Generate API Key"
-msgstr "產生 API 金鑰"
-
-#: includes/class-admin-settings.php:501
-msgid "Disables the verification of SSL to allow local testing."
-msgstr "停用 SSL 驗證，便能在本機環境進行測試。"
-
-#: includes/class-admin-settings.php:492
-msgid "Disable SSL Verification"
-msgstr "停用 SSL 驗證"
-
-#: includes/class-admin-settings.php:486
-msgid "Outputs the request URL and headers / response headers and body / string that is being rewritten."
-msgstr "輸出經過重寫的要求網址、標頭、回應標頭、內容及字串。"
-
-#: includes/class-admin-settings.php:484
-msgid "String"
-msgstr "字串"
-
-#: includes/class-admin-settings.php:483
-msgid "Response"
-msgstr "回應"
-
-#: includes/class-admin-settings.php:482
-msgid "Request"
-msgstr "要求"
-
-#: includes/class-admin-settings.php:473
-msgid "Enable Debug Type"
-msgstr "啟用偵錯類型"
-
-#: includes/class-admin-settings.php:467
-msgid "Enables debug mode for the plugin."
-msgstr "為外掛啟用偵錯模式。"
-
-#: includes/class-admin-settings.php:459
-msgid "Enable Debug Mode"
-msgstr "啟用偵錯模式"
-
-#: includes/class-admin-settings.php:448
-msgid "API Debug Configuration"
-msgstr "API 偵錯組態"
-
-#: includes/class-admin-settings.php:442
-msgid "Provides an API key for repositories that may require authentication."
-msgstr "為需要驗證的存放庫提供 API 金鑰。"
-
-#: includes/class-admin-settings.php:434
-msgid "API Key"
-msgstr "API 金鑰"
-
-#: includes/class-admin-settings.php:425
-msgid "Other"
-msgstr "其他主機"
-
-#: includes/class-admin-settings.php:415
-msgid "Your new API Host."
-msgstr "設定新的 API 主機。"
-
-#: includes/class-admin-settings.php:407
-msgid "API Host"
-msgstr "API 主機"
-
-#: includes/class-admin-settings.php:394
-msgid "Enable AspireUpdate API Rewrites"
-msgstr "啟用 AspireUpdate API 重寫"
-
-#: includes/class-admin-settings.php:383
-msgid "API Configuration"
-msgstr "API 組態"
-
-#: includes/views/page-admin-settings.php:17
-msgid "Reset"
-msgstr "重設"
-
-#: includes/views/page-admin-settings.php:8
-msgid "AspireUpdate Settings"
-msgstr "AspireUpdate 設定"
-
-#: includes/class-admin-settings.php:329
-msgid "Unexpected Error"
-msgstr ""
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: aspire-update.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
 #: includes/class-admin-settings.php:139
 msgid "Settings have been reset to default."
 msgstr "設定已重設為預設值。"
 
-#. Author URI of the plugin
-#: aspire-update.php includes/class-branding.php:99
-#: includes/class-branding.php:114 includes/class-branding.php:127
+#: includes/class-admin-settings.php:156
+msgid "Settings Saved"
+msgstr "設定已儲存。"
+
+#: includes/class-admin-settings.php:329
+msgid "Unexpected Error"
+msgstr "未預期的錯誤"
+
+#: includes/class-admin-settings.php:383
+msgid "API Configuration"
+msgstr "API 組態"
+
+#: includes/class-admin-settings.php:394
+msgid "Enable AspireUpdate API Rewrites"
+msgstr "啟用 AspireUpdate API 重寫"
+
+#: includes/class-admin-settings.php:407
+msgid "API Host"
+msgstr "API 主機"
+
+#: includes/class-admin-settings.php:415
+msgid "Your new API Host."
+msgstr "設定新的 API 主機。"
+
+#. translators: 1: The name of the API Service
+#: includes/class-admin-settings.php:421
+#, php-format
+msgid "AspireCloud (%1$s)"
+msgstr "AspireCloud (%1$s)"
+
+#: includes/class-admin-settings.php:429
+msgid "Other"
+msgstr "其他主機"
+
+#: includes/class-admin-settings.php:438
+msgid "API Key"
+msgstr "API 金鑰"
+
+#: includes/class-admin-settings.php:446
+msgid "Provides an API key for repositories that may require authentication."
+msgstr "為需要驗證的存放庫提供 API 金鑰。"
+
+#: includes/class-admin-settings.php:452
+msgid "API Debug Configuration"
+msgstr "API 偵錯組態"
+
+#: includes/class-admin-settings.php:463
+msgid "Enable Debug Mode"
+msgstr "啟用偵錯模式"
+
+#: includes/class-admin-settings.php:471
+msgid "Enables debug mode for the plugin."
+msgstr "為外掛啟用偵錯模式。"
+
+#: includes/class-admin-settings.php:477
+msgid "Enable Debug Type"
+msgstr "啟用偵錯類型"
+
+#: includes/class-admin-settings.php:486
+msgid "Request"
+msgstr "要求"
+
+#: includes/class-admin-settings.php:487
+msgid "Response"
+msgstr "回應"
+
+#: includes/class-admin-settings.php:488
+msgid "String"
+msgstr "字串"
+
+#: includes/class-admin-settings.php:490
+msgid ""
+"Outputs the request URL and headers / response headers and body / string "
+"that is being rewritten."
+msgstr "輸出經過重寫的要求網址、標頭、回應標頭、內容及字串。"
+
+#: includes/class-admin-settings.php:496
+msgid "Disable SSL Verification"
+msgstr "停用 SSL 驗證"
+
+#: includes/class-admin-settings.php:505
+msgid "Disables the verification of SSL to allow local testing."
+msgstr "停用 SSL 驗證，便能在本機環境進行測試。"
+
+#: includes/class-admin-settings.php:570
+msgid "Generate API Key"
+msgstr "產生 API 金鑰"
+
+#: includes/class-api-rewrite.php:77
+msgid "Default API Found: "
+msgstr "預設 API 已找到: "
+
+#: includes/class-api-rewrite.php:81
+msgid "SSL Verification Disabled"
+msgstr "SSL 驗證已停用。"
+
+#: includes/class-api-rewrite.php:86
+msgid "API Key Authorization header added."
+msgstr "API 金鑰授權標頭已新增。"
+
+#: includes/class-api-rewrite.php:95
+msgid "Cache Buster Added to URL"
+msgstr "快取清除已新增至網址。"
+
+#: includes/class-api-rewrite.php:98
+msgid "API Rerouted to: "
+msgstr "API 重新路由目標: "
+
+#. translators: 1: The name of the plugin, 2: The documentation URL.
+#: includes/class-branding.php:97
+#, php-format
+msgid ""
+"Your plugin updates are now powered by <strong>%1$s</strong>. <a "
+"href=\"%2$s\">Learn more</a>"
+msgstr ""
+"這個網站的外掛目前由 <strong>%1$s</strong> 負責更新。<a href=\"%2$s\" "
+"target=\"_blank\">進一步了解</a>"
+
+#. Author URI of the plugin/theme
+#: includes/class-branding.php:99 includes/class-branding.php:114
+#: includes/class-branding.php:127
 msgid "https://docs.aspirepress.org/aspireupdate/"
 msgstr "https://docs.aspirepress.org/aspireupdate/"
 
-#. Author of the plugin
-#: aspire-update.php
-msgid "AspirePress"
-msgstr "AspirePress"
+#. translators: 1: The name of the plugin, 2: The documentation URL.
+#: includes/class-branding.php:112
+#, php-format
+msgid ""
+"Your theme updates are now powered by <strong>%1$s</strong>. <a "
+"href=\"%2$s\">Learn more</a>"
+msgstr ""
+"這個網站的佈景主題目前由 <strong>%1$s</strong> 負責更新。<a href=\"%2$s\" "
+"target=\"_blank\">進一步了解</a>"
 
-#. Description of the plugin
-#: aspire-update.php
-msgid "Update plugins and themes for WordPress."
-msgstr "更新 WordPress 的外掛及佈景主題。"
+#. translators: 1: The name of the plugin, 2: The documentation URL.
+#: includes/class-branding.php:125
+#, php-format
+msgid ""
+"Your WordPress, plugin, theme and translation updates are now powered by "
+"<strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
+msgstr ""
+"這個網站的 WordPress 核心程式、外掛、佈景主題及語言套件目前由 "
+"<strong>%1$s</strong> 負責更新。<a href=\"%2$s\" target=\"_blank\">進一步了"
+"解</a>"
 
-#. Plugin URI of the plugin
-#: aspire-update.php
+#: includes/class-controller.php:66 includes/class-controller.php:98
+msgid "Error: You are not authorized to access this resource."
+msgstr "錯誤: 這個網站沒有得到存取相關資源的授權。"
+
+#: includes/class-controller.php:82
+msgid "Log file cleared successfully."
+msgstr "記錄檔已成功清除。"
+
+#: includes/class-debug.php:66
+msgid "Error: Unable to read the log file."
+msgstr "錯誤: 無法讀取記錄檔。"
+
+#: includes/class-debug.php:72
+msgid "*****Log file is empty.*****"
+msgstr "***** 記錄檔為空。*****"
+
+#: includes/class-debug.php:88
+msgid "Error: Unable to access the log file."
+msgstr "錯誤: 無法存取記錄檔。"
+
+#: includes/views/page-admin-settings.php:8
+msgid "AspireUpdate Settings"
+msgstr "AspireUpdate 設定"
+
+#: includes/views/page-admin-settings.php:17
+msgid "Reset"
+msgstr "重設"
+
+#: includes/views/page-admin-settings.php:18
+msgid "Clear Log"
+msgstr "清除記錄"
+
+#: includes/views/page-admin-settings.php:19
+msgid "View Log"
+msgstr "檢視記錄"
+
+#. Plugin Name of the plugin/theme
+msgid "AspireUpdate"
+msgstr "AspireUpdate"
+
+#. Plugin URI of the plugin/theme
 msgid "https://aspirepress.org/"
 msgstr "https://aspirepress.org/"
 
-#. Plugin Name of the plugin
-#: aspire-update.php
-msgid "AspireUpdate"
-msgstr "AspireUpdate"
+#. Description of the plugin/theme
+msgid "Update plugins and themes for WordPress."
+msgstr "更新 WordPress 的外掛及佈景主題。"
+
+#. Author of the plugin/theme
+msgid "AspirePress"
+msgstr "AspirePress"
+
+#~ msgid "Save Changes"
+#~ msgstr "儲存設定"
