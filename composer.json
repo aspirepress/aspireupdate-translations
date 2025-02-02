@@ -33,6 +33,9 @@
   "scripts": {
     "make-language-packs": [
       "php ./vendor/autoload.php"
+    ],
+    "git-add-push": [
+      "git add --all && git push -u origin main"
     ]
   }
 }
