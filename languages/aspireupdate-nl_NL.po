@@ -2,56 +2,47 @@
 # This file is distributed under the same license as the AspireUpdate package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-15 08:41:45+0000\n"
+"PO-Revision-Date: 2024-12-09 17:53:31+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/4.0.1\n"
-"Language: nl\n"
+"Language: nl_NL\n"
 "Project-Id-Version: AspireUpdate\n"
 
-#: includes/views/page-admin-settings.php:19
-msgid "View Log"
-msgstr "Logboek bekijken"
-
-#: includes/views/page-admin-settings.php:18
-msgid "Clear Log"
-msgstr "Logboek wissen"
-
-#: includes/class-debug.php:118
-msgid "Error: Unable to access the log file."
-msgstr "Fout: Geen toegang tot het logbestand."
-
-#. translators: 1: The number of lines at which the content was truncated.
-#: includes/class-debug.php:102
-msgid "*****Log truncated at %s lines.*****"
-msgstr "*****Logboek afgekapt op %s regels.*****"
-
-#: includes/class-debug.php:98
-msgid "*****Log file is empty.*****"
-msgstr "*****Logbestand is leeg.*****"
-
-#: includes/class-debug.php:85
-msgid "Error: Unable to read the log file."
-msgstr "Kan het logbestand niet lezen."
-
-#: includes/class-controller.php:77
-msgid "Log file cleared successfully."
-msgstr "Logbestand succesvol gewist."
-
-#: includes/class-controller.php:61 includes/class-controller.php:91
+#: includes/class-controller.php:65 includes/class-controller.php:97
 msgid "Error: You are not authorized to access this resource."
 msgstr "Fout: Je bent niet bevoegd om toegang te krijgen tot deze bron."
 
-#: includes/class-admin-settings.php:156
-msgid "Settings Saved"
-msgstr "Instellingen opgeslagen"
+#: includes/class-admin-settings.php:483
+msgid "Response"
+msgstr "Antwoord"
+
+#: includes/class-admin-settings.php:484
+msgid "String"
+msgstr "Tekst"
+
+#: includes/class-admin-settings.php:486
+msgid "Outputs the request URL and headers / response headers and body / string that is being rewritten."
+msgstr "Toon de aanvraag URL en headers / antwoord headers en body / tekst die wordt herschreven."
+
+#: includes/class-admin-settings.php:492
+msgid "Disable SSL Verification"
+msgstr "SSL Verificatie uitschakelen"
+
+#: includes/class-admin-settings.php:501
+msgid "Disables the verification of SSL to allow local testing."
+msgstr "Schakel SSL verificatie uit om lokaal testen mogelijk te maken."
+
+#: includes/class-admin-settings.php:566
+msgid "Generate API Key"
+msgstr "Genereer API Sleutel"
 
 #. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:125
-msgid "Your WordPress, plugin, theme and translation updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr "Je WordPress, plugin, thema en vertalingen updates worden nu mogelijk gemaakt door <strong>%1$s</strong>. <a href=\"%2$s\">Lees meer</a>"
+#: includes/class-branding.php:97
+msgid "Your plugin updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
+msgstr "Je plugin updates worden nu mogelijk gemaakt door <strong>%1$s</strong>. <a href=\"%2$s\">Lees meer</a>"
 
 #. translators: 1: The name of the plugin, 2: The documentation URL.
 #: includes/class-branding.php:112
@@ -59,97 +50,64 @@ msgid "Your theme updates are now powered by <strong>%1$s</strong>. <a href=\"%2
 msgstr "Je thema updates worden nu mogelijk gemaakt door <strong>%1$s</strong>. <a href=\"%2$s\">Lees meer</a>"
 
 #. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:97
-msgid "Your plugin updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr "Je plugin updates worden nu mogelijk gemaakt door <strong>%1$s</strong>. <a href=\"%2$s\">Lees meer</a>"
-
-#: includes/class-admin-settings.php:564
-msgid "Generate API Key"
-msgstr "Genereer API Sleutel"
-
-#: includes/class-admin-settings.php:501
-msgid "Disables the verification of SSL to allow local testing."
-msgstr "Schakel SSL verificatie uit om lokaal testen mogelijk te maken."
-
-#: includes/class-admin-settings.php:492
-msgid "Disable SSL Verification"
-msgstr "SSL Verificatie uitschakelen"
-
-#: includes/class-admin-settings.php:486
-msgid "Outputs the request URL and headers / response headers and body / string that is being rewritten."
-msgstr "Toon de aanvraag URL en headers / antwoord headers en body / tekst die wordt herschreven."
-
-#: includes/class-admin-settings.php:484
-msgid "String"
-msgstr "Tekst"
-
-#: includes/class-admin-settings.php:483
-msgid "Response"
-msgstr "Antwoord"
+#: includes/class-branding.php:125
+msgid "Your WordPress, plugin, theme and translation updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
+msgstr "Je WordPress, plugin, thema en vertalingen updates worden nu mogelijk gemaakt door <strong>%1$s</strong>. <a href=\"%2$s\">Lees meer</a>"
 
 #: includes/class-admin-settings.php:482
 msgid "Request"
 msgstr "Aanvraag"
 
-#: includes/class-admin-settings.php:473
-msgid "Enable Debug Type"
-msgstr "Debug Type inschakelen"
+#: includes/class-controller.php:81
+msgid "Log file cleared successfully."
+msgstr "Logbestand succesvol gewist."
 
-#: includes/class-admin-settings.php:467
-msgid "Enables debug mode for the plugin."
-msgstr "Schakelt debug modus in voor de plugin."
+#: includes/class-debug.php:66
+msgid "Error: Unable to read the log file."
+msgstr "Kan het logbestand niet lezen."
 
-#: includes/class-admin-settings.php:459
-msgid "Enable Debug Mode"
-msgstr "Debug Modus inschakelen"
+#: includes/class-debug.php:72
+msgid "*****Log file is empty.*****"
+msgstr "*****Logbestand is leeg.*****"
 
-#: includes/class-admin-settings.php:448
-msgid "API Debug Configuration"
-msgstr "API Debug Configuratie"
-
-#: includes/class-admin-settings.php:442
-msgid "Provides an API key for repositories that may require authentication."
-msgstr "Biedt een API sleutel voor repositories waarvoor authenticatie vereist kan zijn."
-
-#: includes/class-admin-settings.php:434
-msgid "API Key"
-msgstr "API Sleutel"
-
-#: includes/class-admin-settings.php:425
-msgid "Other"
-msgstr "Overig"
-
-#: includes/class-admin-settings.php:415
-msgid "Your new API Host."
-msgstr "Je nieuwe API Host."
-
-#: includes/class-admin-settings.php:407
-msgid "API Host"
-msgstr "API Host"
-
-#: includes/class-admin-settings.php:394
-msgid "Enable AspireUpdate API Rewrites"
-msgstr "AspireUpdate API herschrijfregels inschakelen"
-
-#: includes/class-admin-settings.php:383
-msgid "API Configuration"
-msgstr "API Configuratie"
-
-#: includes/views/page-admin-settings.php:17
-msgid "Reset"
-msgstr "Opnieuw instellen"
+#: includes/class-debug.php:88
+msgid "Error: Unable to access the log file."
+msgstr "Fout: Geen toegang tot het logbestand."
 
 #: includes/views/page-admin-settings.php:8
 msgid "AspireUpdate Settings"
 msgstr "AspireUpdate Instellingen"
 
-#: includes/class-admin-settings.php:329
-msgid "Unexpected Error"
-msgstr "Onverwachte fout"
+#: includes/views/page-admin-settings.php:17
+msgid "Reset"
+msgstr "Opnieuw instellen"
 
-#: includes/class-admin-settings.php:139
-msgid "Settings have been reset to default."
-msgstr "Instellingen zijn opnieuw ingesteld naar de standaardwaarden."
+#: includes/views/page-admin-settings.php:18
+msgid "Clear Log"
+msgstr "Logboek wissen"
+
+#: includes/views/page-admin-settings.php:19
+msgid "View Log"
+msgstr "Logboek bekijken"
+
+#: includes/class-admin-settings.php:407
+msgid "API Host"
+msgstr "API Host"
+
+#. Plugin URI of the plugin
+#: aspire-update.php
+msgid "https://aspirepress.org/"
+msgstr "https://aspirepress.org/"
+
+#. Description of the plugin
+#: aspire-update.php
+msgid "Update plugins and themes for WordPress."
+msgstr "Update plugins en thema's voor WordPress."
+
+#. Author of the plugin
+#: aspire-update.php
+msgid "AspirePress"
+msgstr "AspirePress"
 
 #. Author URI of the plugin
 #: aspire-update.php includes/class-branding.php:99
@@ -157,22 +115,59 @@ msgstr "Instellingen zijn opnieuw ingesteld naar de standaardwaarden."
 msgid "https://docs.aspirepress.org/aspireupdate/"
 msgstr "https://docs.aspirepress.org/aspireupdate/"
 
-#. Author of the plugin
-#: aspire-update.php
-msgid "AspirePress"
-msgstr "AspirePress"
+#: includes/class-admin-settings.php:139
+msgid "Settings have been reset to default."
+msgstr "Instellingen zijn opnieuw ingesteld naar de standaardwaarden."
 
-#. Description of the plugin
-#: aspire-update.php
-msgid "Update plugins and themes for WordPress."
-msgstr "Update plugins en thema's voor WordPress."
+#: includes/class-admin-settings.php:156
+msgid "Settings Saved"
+msgstr "Instellingen opgeslagen"
 
-#. Plugin URI of the plugin
-#: aspire-update.php
-msgid "https://aspirepress.org/"
-msgstr "https://aspirepress.org/"
+#: includes/class-admin-settings.php:329
+msgid "Unexpected Error"
+msgstr "Onverwachte fout"
+
+#: includes/class-admin-settings.php:383
+msgid "API Configuration"
+msgstr "API Configuratie"
+
+#: includes/class-admin-settings.php:394
+msgid "Enable AspireUpdate API Rewrites"
+msgstr "AspireUpdate API herschrijfregels inschakelen"
 
 #. Plugin Name of the plugin
 #: aspire-update.php
 msgid "AspireUpdate"
 msgstr "AspireUpdate"
+
+#: includes/class-admin-settings.php:415
+msgid "Your new API Host."
+msgstr "Je nieuwe API Host."
+
+#: includes/class-admin-settings.php:425
+msgid "Other"
+msgstr "Overig"
+
+#: includes/class-admin-settings.php:434
+msgid "API Key"
+msgstr "API Sleutel"
+
+#: includes/class-admin-settings.php:442
+msgid "Provides an API key for repositories that may require authentication."
+msgstr "Biedt een API sleutel voor repositories waarvoor authenticatie vereist kan zijn."
+
+#: includes/class-admin-settings.php:448
+msgid "API Debug Configuration"
+msgstr "API Debug Configuratie"
+
+#: includes/class-admin-settings.php:459
+msgid "Enable Debug Mode"
+msgstr "Debug Modus inschakelen"
+
+#: includes/class-admin-settings.php:467
+msgid "Enables debug mode for the plugin."
+msgstr "Schakelt debug modus in voor de plugin."
+
+#: includes/class-admin-settings.php:473
+msgid "Enable Debug Type"
+msgstr "Debug Type inschakelen"
