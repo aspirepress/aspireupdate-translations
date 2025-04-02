@@ -11,42 +11,101 @@ msgstr ""
 "Language: sv_SE\n"
 "Project-Id-Version: AspireUpdate\n"
 
-#: includes/class-controller.php:65 includes/class-controller.php:97
-msgid "Error: You are not authorized to access this resource."
+#. translators: %s: The error message.
+#. translators: %s: The response message.
+#: includes/class-api-rewrite.php:137 includes/class-api-rewrite.php:182
+msgid "Request Failed: %s"
 msgstr ""
 
-#: includes/class-admin-settings.php:483
-msgid "Response"
-msgstr "Svar"
+#: includes/class-api-rewrite.php:133
+msgid "Your API host is not a valid URL."
+msgstr ""
 
-#: includes/class-admin-settings.php:484
-msgid "String"
-msgstr "Sträng"
+#: includes/class-api-rewrite.php:92
+msgid "Accept JSON Header added for API calls."
+msgstr ""
 
-#: includes/class-admin-settings.php:486
-msgid "Outputs the request URL and headers / response headers and body / string that is being rewritten."
-msgstr "Skriver ut URL och headers för förfrågan/svarets headers och innehåll/sträng som skrivs om."
+#. translators: 1: The name of the API Service
+#: includes/class-admin-settings.php:468
+msgid "AspireCloud Bleeding Edge (%1$s)"
+msgstr ""
 
-#: includes/class-admin-settings.php:492
-msgid "Disable SSL Verification"
-msgstr "Inaktivera verifiering av SSL"
+#: includes/class-admin-settings.php:451
+msgid "Your new API Host. Ensure that it starts with http:// or https://"
+msgstr ""
 
-#: includes/class-admin-settings.php:501
-msgid "Disables the verification of SSL to allow local testing."
-msgstr "Inaktiverar verifieringen av SSL så att lokal testning kan ske."
+#: includes/class-admin-settings.php:363
+msgid "Please enter a valid URL"
+msgstr ""
 
-#: includes/class-admin-settings.php:566
-msgid "Generate API Key"
-msgstr "Generera API-nyckel"
+#: includes/class-admin-settings.php:315
+msgid "Settings"
+msgstr ""
+
+#: includes/class-api-rewrite.php:130
+msgid "Default API Found: "
+msgstr ""
+
+#. translators: 1: The name of the API Service
+#: includes/class-admin-settings.php:458
+msgid "AspireCloud (%1$s)"
+msgstr ""
+
+#: includes/class-api-rewrite.php:146
+msgid "SSL Verification Disabled"
+msgstr ""
+
+#: includes/class-api-rewrite.php:72
+msgid "API Key Authorization header added."
+msgstr ""
+
+#: includes/class-api-rewrite.php:109
+msgid "Cache Buster Added to URL"
+msgstr ""
+
+#: includes/class-api-rewrite.php:159
+msgid "API Rerouted to: "
+msgstr ""
 
 #. translators: 1: The name of the plugin, 2: The documentation URL.
 #: includes/class-branding.php:97
 msgid "Your plugin updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
 msgstr ""
 
-#. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:112
-msgid "Your theme updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
+#: includes/views/page-admin-settings.php:20
+msgid "View Log"
+msgstr ""
+
+#: includes/views/page-admin-settings.php:19
+msgid "Clear Log"
+msgstr ""
+
+#: includes/views/page-admin-settings.php:18
+msgid "Reset"
+msgstr "Återställ"
+
+#: includes/views/page-admin-settings.php:9
+msgid "AspireUpdate Settings"
+msgstr "Inställningar för AspireUpdate"
+
+#: includes/class-debug.php:96
+msgid "Error: Unable to access the log file."
+msgstr ""
+
+#: includes/class-debug.php:80
+msgid "*****Log file is empty.*****"
+msgstr ""
+
+#: includes/class-debug.php:74
+msgid "Error: Unable to read the log file."
+msgstr ""
+
+#: includes/class-controller.php:87
+msgid "Log file cleared successfully."
+msgstr ""
+
+#: includes/class-controller.php:71 includes/class-controller.php:108
+msgid "Error: You are not authorized to access this resource."
 msgstr ""
 
 #. translators: 1: The name of the plugin, 2: The documentation URL.
@@ -54,45 +113,14 @@ msgstr ""
 msgid "Your WordPress, plugin, theme and translation updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
 msgstr ""
 
-#: includes/class-admin-settings.php:482
-msgid "Request"
-msgstr "Förfrågan"
-
-#: includes/class-controller.php:81
-msgid "Log file cleared successfully."
+#. translators: 1: The name of the plugin, 2: The documentation URL.
+#: includes/class-branding.php:112
+msgid "Your theme updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
 msgstr ""
 
-#: includes/class-debug.php:66
-msgid "Error: Unable to read the log file."
-msgstr ""
-
-#: includes/class-debug.php:72
-msgid "*****Log file is empty.*****"
-msgstr ""
-
-#: includes/class-debug.php:88
-msgid "Error: Unable to access the log file."
-msgstr ""
-
-#: includes/views/page-admin-settings.php:8
-msgid "AspireUpdate Settings"
-msgstr "Inställningar för AspireUpdate"
-
-#: includes/views/page-admin-settings.php:17
-msgid "Reset"
-msgstr "Återställ"
-
-#: includes/views/page-admin-settings.php:18
-msgid "Clear Log"
-msgstr ""
-
-#: includes/views/page-admin-settings.php:19
-msgid "View Log"
-msgstr ""
-
-#: includes/class-admin-settings.php:407
-msgid "API Host"
-msgstr "API-värd"
+#: includes/class-admin-settings.php:493
+msgid "Provides an API key for repositories that may require authentication."
+msgstr "Tillhandahåller API-nyckel för filförvar som kan kräva autentisering."
 
 #. Plugin URI of the plugin
 #: aspire-update.php
@@ -115,59 +143,83 @@ msgstr "AspirePress"
 msgid "https://docs.aspirepress.org/aspireupdate/"
 msgstr "https://docs.aspirepress.org/aspireupdate/"
 
-#: includes/class-admin-settings.php:139
+#: includes/class-admin-settings.php:155
 msgid "Settings have been reset to default."
 msgstr "Inställningarna återställda till standardvärden."
 
-#: includes/class-admin-settings.php:156
+#: includes/class-admin-settings.php:171
 msgid "Settings Saved"
 msgstr ""
 
-#: includes/class-admin-settings.php:329
+#: includes/class-admin-settings.php:362
 msgid "Unexpected Error"
 msgstr "Okänt fel"
 
-#: includes/class-admin-settings.php:383
+#: includes/class-admin-settings.php:418
 msgid "API Configuration"
 msgstr "API-konfiguration"
 
-#: includes/class-admin-settings.php:394
+#: includes/class-admin-settings.php:429
 msgid "Enable AspireUpdate API Rewrites"
 msgstr "Aktivera omskrivningar i AspireUpdate API"
+
+#: includes/class-admin-settings.php:443
+msgid "API Host"
+msgstr "API-värd"
+
+#: includes/class-admin-settings.php:476
+msgid "Other"
+msgstr "Annat"
+
+#: includes/class-admin-settings.php:485
+msgid "API Key"
+msgstr "API-nyckel"
 
 #. Plugin Name of the plugin
 #: aspire-update.php
 msgid "AspireUpdate"
 msgstr "AspireUpdate"
 
-#: includes/class-admin-settings.php:415
-msgid "Your new API Host."
-msgstr "Din nya API-värd."
-
-#: includes/class-admin-settings.php:425
-msgid "Other"
-msgstr "Annat"
-
-#: includes/class-admin-settings.php:434
-msgid "API Key"
-msgstr "API-nyckel"
-
-#: includes/class-admin-settings.php:442
-msgid "Provides an API key for repositories that may require authentication."
-msgstr "Tillhandahåller API-nyckel för filförvar som kan kräva autentisering."
-
-#: includes/class-admin-settings.php:448
+#: includes/class-admin-settings.php:500
 msgid "API Debug Configuration"
 msgstr "Konfigurering av felsökning i API"
 
-#: includes/class-admin-settings.php:459
+#: includes/class-admin-settings.php:511
 msgid "Enable Debug Mode"
 msgstr "Aktivera felsökningsläge"
 
-#: includes/class-admin-settings.php:467
+#: includes/class-admin-settings.php:519
 msgid "Enables debug mode for the plugin."
 msgstr "Aktiverar tilläggets felsökningsläge."
 
-#: includes/class-admin-settings.php:473
+#: includes/class-admin-settings.php:526
 msgid "Enable Debug Type"
 msgstr "Aktivera typ av felsökning"
+
+#: includes/class-admin-settings.php:535
+msgid "Request"
+msgstr "Förfrågan"
+
+#: includes/class-admin-settings.php:536
+msgid "Response"
+msgstr "Svar"
+
+#: includes/class-admin-settings.php:537
+msgid "String"
+msgstr "Sträng"
+
+#: includes/class-admin-settings.php:539
+msgid "Outputs the request URL and headers / response headers and body / string that is being rewritten."
+msgstr "Skriver ut URL och headers för förfrågan/svarets headers och innehåll/sträng som skrivs om."
+
+#: includes/class-admin-settings.php:545
+msgid "Disable SSL Verification"
+msgstr "Inaktivera verifiering av SSL"
+
+#: includes/class-admin-settings.php:554
+msgid "Disables the verification of SSL to allow local testing."
+msgstr "Inaktiverar verifieringen av SSL så att lokal testning kan ske."
+
+#: includes/class-admin-settings.php:621
+msgid "Generate API Key"
+msgstr "Generera API-nyckel"
