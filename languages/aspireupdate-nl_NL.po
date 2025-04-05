@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the AspireUpdate package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-02-26 08:48:43+0000\n"
+"PO-Revision-Date: 2025-04-04 08:00:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,13 +11,35 @@ msgstr ""
 "Language: nl_NL\n"
 "Project-Id-Version: AspireUpdate\n"
 
+#. translators: %s: AspireUpdate.
+#: includes/class-api-rewrite.php:325
+msgid "Removed %s from the response."
+msgstr "%s uit het antwoord verwijderd."
+
+#. translators: %s: The asset type.
+#: includes/class-api-rewrite.php:305
+msgid "Removed non-API %s from the update response."
+msgstr "Niet-API %s verwijderd uit het update antwoord."
+
+#: includes/class-api-rewrite.php:248 includes/class-api-rewrite.php:306
+msgid "themes"
+msgstr "thema's"
+
+#: includes/class-api-rewrite.php:248 includes/class-api-rewrite.php:306
+msgid "plugins"
+msgstr "plugins"
+
+#. translators: %s: The asset type.
+#: includes/class-api-rewrite.php:247
+msgid "Removed non-API %s from the update request."
+msgstr "Niet-API %s verwijderd uit de update aanvraag."
+
 #. translators: %s: The error message.
-#. translators: %s: The response message.
-#: includes/class-api-rewrite.php:137 includes/class-api-rewrite.php:182
+#: includes/class-api-rewrite.php:201 includes/class-api-rewrite.php:276
 msgid "Request Failed: %s"
 msgstr "Aanvraag mislukt: %s"
 
-#: includes/class-api-rewrite.php:133
+#: includes/class-api-rewrite.php:197
 msgid "Your API host is not a valid URL."
 msgstr "Je API host is geen geldige URL."
 
@@ -42,16 +64,20 @@ msgstr "Voer een geldige URL in"
 msgid "Settings"
 msgstr "Instellingen"
 
-#: includes/class-api-rewrite.php:130
-msgid "Default API Found: "
-msgstr "Standaard API gevonden: "
+#: includes/class-api-rewrite.php:109
+msgid "Cache Buster Added to URL"
+msgstr "Cache Buster toegevoegd aan URL"
 
 #. translators: 1: The name of the API Service
 #: includes/class-admin-settings.php:458
 msgid "AspireCloud (%1$s)"
 msgstr "AspireCloud (%1$s)"
 
-#: includes/class-api-rewrite.php:146
+#: includes/class-api-rewrite.php:194
+msgid "Default API Found: "
+msgstr "Standaard API gevonden: "
+
+#: includes/class-api-rewrite.php:210
 msgid "SSL Verification Disabled"
 msgstr "SSL Verificatie uitgeschakeld"
 
@@ -59,18 +85,14 @@ msgstr "SSL Verificatie uitgeschakeld"
 msgid "API Key Authorization header added."
 msgstr "API Sleutel Authorisatie header toegevoegd."
 
-#: includes/class-api-rewrite.php:109
-msgid "Cache Buster Added to URL"
-msgstr "Cache Buster toegevoegd aan URL"
-
-#: includes/class-api-rewrite.php:159
+#: includes/class-api-rewrite.php:223
 msgid "API Rerouted to: "
 msgstr "API omgeleid naar: "
 
 #. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:97
-msgid "Your plugin updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr "Je plugin updates worden nu mogelijk gemaakt door <strong>%1$s</strong>. <a href=\"%2$s\">Lees meer</a>"
+#: includes/class-branding.php:125
+msgid "Your WordPress, plugin, theme and translation updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
+msgstr "Je WordPress, plugin, thema en vertalingen updates worden nu mogelijk gemaakt door <strong>%1$s</strong>. <a href=\"%2$s\">Lees meer</a>"
 
 #: includes/views/page-admin-settings.php:20
 msgid "View Log"
@@ -108,19 +130,9 @@ msgstr "Logbestand succesvol gewist."
 msgid "Error: You are not authorized to access this resource."
 msgstr "Fout: Je bent niet bevoegd om toegang te krijgen tot deze bron."
 
-#. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:125
-msgid "Your WordPress, plugin, theme and translation updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr "Je WordPress, plugin, thema en vertalingen updates worden nu mogelijk gemaakt door <strong>%1$s</strong>. <a href=\"%2$s\">Lees meer</a>"
-
-#. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:112
-msgid "Your theme updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr "Je thema updates worden nu mogelijk gemaakt door <strong>%1$s</strong>. <a href=\"%2$s\">Lees meer</a>"
-
-#: includes/class-admin-settings.php:493
-msgid "Provides an API key for repositories that may require authentication."
-msgstr "Biedt een API sleutel voor repositories waarvoor authenticatie vereist kan zijn."
+#: includes/class-admin-settings.php:500
+msgid "API Debug Configuration"
+msgstr "API Debug Configuratie"
 
 #. Plugin URI of the plugin
 #: aspire-update.php
@@ -175,14 +187,14 @@ msgstr "Overig"
 msgid "API Key"
 msgstr "API Sleutel"
 
+#: includes/class-admin-settings.php:493
+msgid "Provides an API key for repositories that may require authentication."
+msgstr "Biedt een API sleutel voor repositories waarvoor authenticatie vereist kan zijn."
+
 #. Plugin Name of the plugin
 #: aspire-update.php
 msgid "AspireUpdate"
 msgstr "AspireUpdate"
-
-#: includes/class-admin-settings.php:500
-msgid "API Debug Configuration"
-msgstr "API Debug Configuratie"
 
 #: includes/class-admin-settings.php:511
 msgid "Enable Debug Mode"
@@ -223,3 +235,13 @@ msgstr "Schakel SSL verificatie uit om lokaal testen mogelijk te maken."
 #: includes/class-admin-settings.php:621
 msgid "Generate API Key"
 msgstr "Genereer API Sleutel"
+
+#. translators: 1: The name of the plugin, 2: The documentation URL.
+#: includes/class-branding.php:97
+msgid "Your plugin updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
+msgstr "Je plugin updates worden nu mogelijk gemaakt door <strong>%1$s</strong>. <a href=\"%2$s\">Lees meer</a>"
+
+#. translators: 1: The name of the plugin, 2: The documentation URL.
+#: includes/class-branding.php:112
+msgid "Your theme updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
+msgstr "Je thema updates worden nu mogelijk gemaakt door <strong>%1$s</strong>. <a href=\"%2$s\">Lees meer</a>"

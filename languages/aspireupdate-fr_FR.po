@@ -11,13 +11,35 @@ msgstr ""
 "Language: fr_FR\n"
 "Project-Id-Version: AspireUpdate\n"
 
+#. translators: %s: AspireUpdate.
+#: includes/class-api-rewrite.php:325
+msgid "Removed %s from the response."
+msgstr ""
+
+#. translators: %s: The asset type.
+#: includes/class-api-rewrite.php:305
+msgid "Removed non-API %s from the update response."
+msgstr ""
+
+#: includes/class-api-rewrite.php:248 includes/class-api-rewrite.php:306
+msgid "themes"
+msgstr ""
+
+#: includes/class-api-rewrite.php:248 includes/class-api-rewrite.php:306
+msgid "plugins"
+msgstr ""
+
+#. translators: %s: The asset type.
+#: includes/class-api-rewrite.php:247
+msgid "Removed non-API %s from the update request."
+msgstr ""
+
 #. translators: %s: The error message.
-#. translators: %s: The response message.
-#: includes/class-api-rewrite.php:137 includes/class-api-rewrite.php:182
+#: includes/class-api-rewrite.php:201 includes/class-api-rewrite.php:276
 msgid "Request Failed: %s"
 msgstr "Requête échouée : %s"
 
-#: includes/class-api-rewrite.php:133
+#: includes/class-api-rewrite.php:197
 msgid "Your API host is not a valid URL."
 msgstr "Votre hôte API n’est pas une URL valide."
 
@@ -42,16 +64,20 @@ msgstr "Veuillez saisir une URL valide"
 msgid "Settings"
 msgstr "Réglages"
 
-#: includes/class-api-rewrite.php:130
-msgid "Default API Found: "
-msgstr "API par défaut trouvée :"
+#: includes/class-api-rewrite.php:109
+msgid "Cache Buster Added to URL"
+msgstr "Cache Buster ajouté à l’URL"
 
 #. translators: 1: The name of the API Service
 #: includes/class-admin-settings.php:458
 msgid "AspireCloud (%1$s)"
 msgstr "AspireCloud (%1$s)"
 
-#: includes/class-api-rewrite.php:146
+#: includes/class-api-rewrite.php:194
+msgid "Default API Found: "
+msgstr "API par défaut trouvée :"
+
+#: includes/class-api-rewrite.php:210
 msgid "SSL Verification Disabled"
 msgstr "Vérification SSL désactivée"
 
@@ -59,18 +85,14 @@ msgstr "Vérification SSL désactivée"
 msgid "API Key Authorization header added."
 msgstr "En-tête d’autorisation de clé API ajouté."
 
-#: includes/class-api-rewrite.php:109
-msgid "Cache Buster Added to URL"
-msgstr "Cache Buster ajouté à l’URL"
-
-#: includes/class-api-rewrite.php:159
+#: includes/class-api-rewrite.php:223
 msgid "API Rerouted to: "
 msgstr "API redirigée vers :"
 
 #. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:97
-msgid "Your plugin updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr "Vos mises à jour d’extension sont maintenant propulsées par <strong>%1$s</strong>. <a href=\"%2$s\">En savoir plus</a>"
+#: includes/class-branding.php:125
+msgid "Your WordPress, plugin, theme and translation updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
+msgstr "Vos mises à jour WordPress, extensions, thèmes et traductions sont désormais alimentées par <strong>%1$s</strong>. <a href=\"%2$s\">En savoir plus</a>"
 
 #: includes/views/page-admin-settings.php:20
 msgid "View Log"
@@ -108,19 +130,9 @@ msgstr "Le fichier journal a bien été effacé."
 msgid "Error: You are not authorized to access this resource."
 msgstr "Erreur : vous n’êtes pas autorisé à accéder à cette ressource."
 
-#. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:125
-msgid "Your WordPress, plugin, theme and translation updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr "Vos mises à jour WordPress, extensions, thèmes et traductions sont désormais alimentées par <strong>%1$s</strong>. <a href=\"%2$s\">En savoir plus</a>"
-
-#. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:112
-msgid "Your theme updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr "Vos mises à jour de thèmes sont maintenant propulsées par <strong>%1$s</strong>. <a href=\"%2$s\">En savoir plus</a>"
-
-#: includes/class-admin-settings.php:493
-msgid "Provides an API key for repositories that may require authentication."
-msgstr "Fournit une clé API pour les dépôts qui peuvent nécessiter une authentification."
+#: includes/class-admin-settings.php:500
+msgid "API Debug Configuration"
+msgstr "Configuration du débogage de l’API"
 
 #. Plugin URI of the plugin
 #: aspire-update.php
@@ -175,14 +187,14 @@ msgstr "Autre"
 msgid "API Key"
 msgstr "Clé d’API"
 
+#: includes/class-admin-settings.php:493
+msgid "Provides an API key for repositories that may require authentication."
+msgstr "Fournit une clé API pour les dépôts qui peuvent nécessiter une authentification."
+
 #. Plugin Name of the plugin
 #: aspire-update.php
 msgid "AspireUpdate"
 msgstr "AspireUpdate"
-
-#: includes/class-admin-settings.php:500
-msgid "API Debug Configuration"
-msgstr "Configuration du débogage de l’API"
 
 #: includes/class-admin-settings.php:511
 msgid "Enable Debug Mode"
@@ -223,3 +235,13 @@ msgstr "Désactive la vérification du SSL pour autoriser le test en local."
 #: includes/class-admin-settings.php:621
 msgid "Generate API Key"
 msgstr "Générer une clé d’API"
+
+#. translators: 1: The name of the plugin, 2: The documentation URL.
+#: includes/class-branding.php:97
+msgid "Your plugin updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
+msgstr "Vos mises à jour d’extension sont maintenant propulsées par <strong>%1$s</strong>. <a href=\"%2$s\">En savoir plus</a>"
+
+#. translators: 1: The name of the plugin, 2: The documentation URL.
+#: includes/class-branding.php:112
+msgid "Your theme updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
+msgstr "Vos mises à jour de thèmes sont maintenant propulsées par <strong>%1$s</strong>. <a href=\"%2$s\">En savoir plus</a>"

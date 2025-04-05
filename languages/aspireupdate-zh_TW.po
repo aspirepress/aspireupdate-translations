@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the AspireUpdate package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-02-26 03:59:36+0000\n"
+"PO-Revision-Date: 2025-04-05 05:40:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,13 +11,35 @@ msgstr ""
 "Language: zh_TW\n"
 "Project-Id-Version: AspireUpdate\n"
 
+#. translators: %s: AspireUpdate.
+#: includes/class-api-rewrite.php:325
+msgid "Removed %s from the response."
+msgstr "移除回應中的 %s。"
+
+#. translators: %s: The asset type.
+#: includes/class-api-rewrite.php:305
+msgid "Removed non-API %s from the update response."
+msgstr "移除非 API %s的更新回應。"
+
+#: includes/class-api-rewrite.php:248 includes/class-api-rewrite.php:306
+msgid "themes"
+msgstr "佈景主題"
+
+#: includes/class-api-rewrite.php:248 includes/class-api-rewrite.php:306
+msgid "plugins"
+msgstr "外掛"
+
+#. translators: %s: The asset type.
+#: includes/class-api-rewrite.php:247
+msgid "Removed non-API %s from the update request."
+msgstr "移除非 API %s的更新要求。"
+
 #. translators: %s: The error message.
-#. translators: %s: The response message.
-#: includes/class-api-rewrite.php:137 includes/class-api-rewrite.php:182
+#: includes/class-api-rewrite.php:201 includes/class-api-rewrite.php:276
 msgid "Request Failed: %s"
 msgstr "要求失敗: %s"
 
-#: includes/class-api-rewrite.php:133
+#: includes/class-api-rewrite.php:197
 msgid "Your API host is not a valid URL."
 msgstr "輸入的 API 主機不是有效的網址。"
 
@@ -42,16 +64,20 @@ msgstr "請輸入有效的網址。"
 msgid "Settings"
 msgstr "設定"
 
-#: includes/class-api-rewrite.php:130
-msgid "Default API Found: "
-msgstr "預設 API 已找到: "
+#: includes/class-api-rewrite.php:109
+msgid "Cache Buster Added to URL"
+msgstr "快取清除已新增至網址。"
 
 #. translators: 1: The name of the API Service
 #: includes/class-admin-settings.php:458
 msgid "AspireCloud (%1$s)"
 msgstr "AspireCloud (%1$s)"
 
-#: includes/class-api-rewrite.php:146
+#: includes/class-api-rewrite.php:194
+msgid "Default API Found: "
+msgstr "預設 API 已找到: "
+
+#: includes/class-api-rewrite.php:210
 msgid "SSL Verification Disabled"
 msgstr "SSL 驗證已停用。"
 
@@ -59,18 +85,14 @@ msgstr "SSL 驗證已停用。"
 msgid "API Key Authorization header added."
 msgstr "API 金鑰授權標頭已新增。"
 
-#: includes/class-api-rewrite.php:109
-msgid "Cache Buster Added to URL"
-msgstr "快取清除已新增至網址。"
-
-#: includes/class-api-rewrite.php:159
+#: includes/class-api-rewrite.php:223
 msgid "API Rerouted to: "
 msgstr "API 重新路由目標: "
 
 #. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:97
-msgid "Your plugin updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr "這個網站的外掛目前由 <strong>%1$s</strong> 負責更新。<a href=\"%2$s\" target=\"_blank\">進一步了解</a>"
+#: includes/class-branding.php:125
+msgid "Your WordPress, plugin, theme and translation updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
+msgstr "這個網站的 WordPress 核心程式、外掛、佈景主題及語言套件目前由 <strong>%1$s</strong> 負責更新。<a href=\"%2$s\" target=\"_blank\">進一步了解</a>"
 
 #: includes/views/page-admin-settings.php:20
 msgid "View Log"
@@ -108,19 +130,9 @@ msgstr "記錄檔已成功清除。"
 msgid "Error: You are not authorized to access this resource."
 msgstr "錯誤: 這個網站沒有得到存取相關資源的授權。"
 
-#. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:125
-msgid "Your WordPress, plugin, theme and translation updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr "這個網站的 WordPress 核心程式、外掛、佈景主題及語言套件目前由 <strong>%1$s</strong> 負責更新。<a href=\"%2$s\" target=\"_blank\">進一步了解</a>"
-
-#. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:112
-msgid "Your theme updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr "這個網站的佈景主題目前由 <strong>%1$s</strong> 負責更新。<a href=\"%2$s\" target=\"_blank\">進一步了解</a>"
-
-#: includes/class-admin-settings.php:493
-msgid "Provides an API key for repositories that may require authentication."
-msgstr "為需要驗證的存放庫提供 API 金鑰。"
+#: includes/class-admin-settings.php:500
+msgid "API Debug Configuration"
+msgstr "API 偵錯組態"
 
 #. Plugin URI of the plugin
 #: aspire-update.php
@@ -153,7 +165,7 @@ msgstr "設定已儲存。"
 
 #: includes/class-admin-settings.php:362
 msgid "Unexpected Error"
-msgstr "未預期的錯誤。"
+msgstr "未預期的錯誤"
 
 #: includes/class-admin-settings.php:418
 msgid "API Configuration"
@@ -175,14 +187,14 @@ msgstr "其他主機"
 msgid "API Key"
 msgstr "API 金鑰"
 
+#: includes/class-admin-settings.php:493
+msgid "Provides an API key for repositories that may require authentication."
+msgstr "為需要驗證的存放庫提供 API 金鑰。"
+
 #. Plugin Name of the plugin
 #: aspire-update.php
 msgid "AspireUpdate"
 msgstr "AspireUpdate"
-
-#: includes/class-admin-settings.php:500
-msgid "API Debug Configuration"
-msgstr "API 偵錯組態"
 
 #: includes/class-admin-settings.php:511
 msgid "Enable Debug Mode"
@@ -223,3 +235,13 @@ msgstr "停用 SSL 驗證，便能在本機環境進行測試。"
 #: includes/class-admin-settings.php:621
 msgid "Generate API Key"
 msgstr "產生 API 金鑰"
+
+#. translators: 1: The name of the plugin, 2: The documentation URL.
+#: includes/class-branding.php:97
+msgid "Your plugin updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
+msgstr "這個網站的外掛目前由 <strong>%1$s</strong> 負責更新。<a href=\"%2$s\" target=\"_blank\">進一步了解</a>"
+
+#. translators: 1: The name of the plugin, 2: The documentation URL.
+#: includes/class-branding.php:112
+msgid "Your theme updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
+msgstr "這個網站的佈景主題目前由 <strong>%1$s</strong> 負責更新。<a href=\"%2$s\" target=\"_blank\">進一步了解</a>"
