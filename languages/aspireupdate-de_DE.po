@@ -11,35 +11,123 @@ msgstr ""
 "Language: de_DE\n"
 "Project-Id-Version: AspireUpdate\n"
 
+#: includes/class-utilities.php:79
+msgid "Error found in config file content."
+msgstr ""
+
+#: includes/class-utilities.php:73
+msgid "Config file is empty."
+msgstr ""
+
+#: includes/class-utilities.php:67
+msgid "Config file is missing or unreadable."
+msgstr ""
+
+#. translators: 1: The API host's name.
+#: includes/class-branding.php:165
+msgid "API host: %1$s"
+msgstr ""
+
+#. translators: 1: The name of the API Service
+#: includes/class-admin-settings.php:487
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: includes/class-admin-settings.php:439
+msgid "Unable to load API hosts data. Please check the plugin installation."
+msgstr ""
+
+#. translators: 1: The options' name, 2: The constant's name, 3: The explicitly
+#. required value.
+#: includes/class-api-rewrite.php:204
+msgid "API rewriting has been skipped because the response has already been changed. Enable the %1$s option or set \"%1$s\" in the %2$s constant to %3$s to continue with API rewriting in future."
+msgstr ""
+
+#: includes/class-admin-settings.php:729
+msgid "Enter a custom API host. Ensure that it starts with https://."
+msgstr ""
+
+#: includes/class-admin-settings.php:589
+msgid "Disable SSL verification to allow for local testing"
+msgstr ""
+
+#: includes/class-admin-settings.php:580
+msgid "SSL Verification"
+msgstr ""
+
+#: includes/class-admin-settings.php:573
+msgid "Include a simple description of each step in the rewriting process"
+msgstr ""
+
+#: includes/class-admin-settings.php:572
+msgid "Include response headers and body"
+msgstr ""
+
+#: includes/class-admin-settings.php:571
+msgid "Include request arguments"
+msgstr ""
+
+#: includes/class-admin-settings.php:562
+msgid "Log Contents"
+msgstr ""
+
+#: includes/class-admin-settings.php:556
+msgid "Enable logging and other debugging functionality"
+msgstr ""
+
+#: includes/class-admin-settings.php:548
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/class-admin-settings.php:530
+msgid "Skip API rewriting if another plugin already appears to be rewriting API requests"
+msgstr ""
+
+#: includes/class-admin-settings.php:521
+msgid "Compatibility"
+msgstr ""
+
+#: includes/class-admin-settings.php:514
+msgid "Some repositories may require an API key for authentication."
+msgstr ""
+
+#: includes/class-admin-settings.php:466
+msgid "Rewrite API requests"
+msgstr ""
+
+#: includes/class-admin-settings.php:458
+msgid "API Rewriting"
+msgstr ""
+
 #. translators: %s: AspireUpdate.
-#: includes/class-api-rewrite.php:325
+#: includes/class-api-rewrite.php:345
 msgid "Removed %s from the response."
 msgstr ""
 
 #. translators: %s: The asset type.
-#: includes/class-api-rewrite.php:305
+#: includes/class-api-rewrite.php:325
 msgid "Removed non-API %s from the update response."
 msgstr ""
 
-#: includes/class-api-rewrite.php:248 includes/class-api-rewrite.php:306
+#: includes/class-api-rewrite.php:268 includes/class-api-rewrite.php:326
 msgid "themes"
 msgstr ""
 
-#: includes/class-api-rewrite.php:248 includes/class-api-rewrite.php:306
+#: includes/class-api-rewrite.php:268 includes/class-api-rewrite.php:326
 msgid "plugins"
 msgstr ""
 
 #. translators: %s: The asset type.
-#: includes/class-api-rewrite.php:247
+#: includes/class-api-rewrite.php:267
 msgid "Removed non-API %s from the update request."
 msgstr ""
 
 #. translators: %s: The error message.
-#: includes/class-api-rewrite.php:201 includes/class-api-rewrite.php:276
+#: includes/class-api-rewrite.php:219 includes/class-api-rewrite.php:296
 msgid "Request Failed: %s"
 msgstr ""
 
-#: includes/class-api-rewrite.php:197
+#: includes/class-api-rewrite.php:215
 msgid "Your API host is not a valid URL."
 msgstr ""
 
@@ -47,66 +135,47 @@ msgstr ""
 msgid "Accept JSON Header added for API calls."
 msgstr ""
 
-#. translators: 1: The name of the API Service
-#: includes/class-admin-settings.php:468
-msgid "AspireCloud Bleeding Edge (%1$s)"
-msgstr ""
-
-#: includes/class-admin-settings.php:451
-msgid "Your new API Host. Ensure that it starts with http:// or https://"
-msgstr ""
-
-#: includes/class-admin-settings.php:363
+#: includes/class-admin-settings.php:374
 msgid "Please enter a valid URL"
 msgstr ""
 
-#: includes/class-admin-settings.php:315
+#: includes/class-admin-settings.php:326
 msgid "Settings"
+msgstr ""
+
+#: includes/class-api-rewrite.php:243
+msgid "API Rerouted to: "
 msgstr ""
 
 #: includes/class-api-rewrite.php:109
 msgid "Cache Buster Added to URL"
 msgstr ""
 
-#. translators: 1: The name of the API Service
-#: includes/class-admin-settings.php:458
-msgid "AspireCloud (%1$s)"
+#: includes/class-api-rewrite.php:72
+msgid "API Key Authorization header added."
+msgstr ""
+
+#: includes/class-api-rewrite.php:228
+msgid "SSL Verification Disabled"
 msgstr ""
 
 #: includes/class-api-rewrite.php:194
 msgid "Default API Found: "
 msgstr ""
 
-#: includes/class-api-rewrite.php:210
-msgid "SSL Verification Disabled"
-msgstr ""
-
-#: includes/class-api-rewrite.php:72
-msgid "API Key Authorization header added."
-msgstr ""
-
-#: includes/class-api-rewrite.php:223
-msgid "API Rerouted to: "
-msgstr ""
-
-#. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:125
-msgid "Your WordPress, plugin, theme and translation updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr "Deine WordPress-, Plugin-, Theme- und Übersetzungsupdates werden jetzt von <strong>%1$s</strong> bereitgestellt. <a href=\"%2$s\">Mehr erfahren</a>"
-
-#: includes/views/page-admin-settings.php:20
+#: includes/views/page-admin-settings.php:25
 msgid "View Log"
 msgstr "Protokoll anzeigen"
 
-#: includes/views/page-admin-settings.php:19
+#: includes/views/page-admin-settings.php:22
 msgid "Clear Log"
 msgstr "Protokoll löschen"
 
-#: includes/views/page-admin-settings.php:18
+#: includes/views/page-admin-settings.php:20
 msgid "Reset"
 msgstr "Zurücksetzen"
 
-#: includes/views/page-admin-settings.php:9
+#: includes/class-branding.php:197 includes/views/page-admin-settings.php:11
 msgid "AspireUpdate Settings"
 msgstr "AspireUpdate-Einstellungen"
 
@@ -130,118 +199,79 @@ msgstr "Protokolldatei erfolgreich gelöscht."
 msgid "Error: You are not authorized to access this resource."
 msgstr "Fehler: Du bist nicht berechtigt, auf diese Ressource zuzugreifen."
 
-#: includes/class-admin-settings.php:500
+#. translators: 1: The name of the plugin, 2: The documentation URL.
+#: includes/class-branding.php:115
+msgid "Your WordPress, plugin, theme and translation updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn about %1$s</a>"
+msgstr ""
+
+#. translators: 1: The name of the plugin, 2: The documentation URL.
+#: includes/class-branding.php:102
+msgid "Your theme updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn about %1$s</a>"
+msgstr ""
+
+#. translators: 1: The name of the plugin, 2: The documentation URL.
+#: includes/class-branding.php:87
+msgid "Your plugin updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn about %1$s</a>"
+msgstr ""
+
+#: includes/class-admin-settings.php:698
+msgid "Generate API Key"
+msgstr "API-Schlüssel generieren"
+
+#: includes/class-admin-settings.php:537
 msgid "API Debug Configuration"
 msgstr "API-Debug-Konfiguration"
 
-#. Plugin URI of the plugin
-#: aspire-update.php
-msgid "https://aspirepress.org/"
-msgstr "https://aspirepress.org/"
+#: includes/class-admin-settings.php:506
+msgid "API Key"
+msgstr "API-Schlüssel"
 
-#. Description of the plugin
-#: aspire-update.php
-msgid "Update plugins and themes for WordPress."
-msgstr "Aktualisiert Plugins und Themes für WordPress."
+#: includes/class-admin-settings.php:492
+msgid "Other"
+msgstr "Andere"
+
+#: includes/class-admin-settings.php:472
+msgid "API Host"
+msgstr "API-Host"
+
+#: includes/class-admin-settings.php:447
+msgid "API Configuration"
+msgstr "API-Konfiguration"
+
+#: includes/class-admin-settings.php:373
+msgid "Unexpected Error"
+msgstr "Unerwarteter Fehler"
+
+#: includes/class-admin-settings.php:174
+msgid "Settings Saved"
+msgstr "Einstellungen gespeichert"
+
+#: includes/class-admin-settings.php:158
+msgid "Settings have been reset to default."
+msgstr "Einstellungen wurden auf die Standardwerte zurückgesetzt."
+
+#. Author URI of the plugin
+#: aspire-update.php includes/class-branding.php:89
+#: includes/class-branding.php:104 includes/class-branding.php:117
+msgid "https://docs.aspirepress.org/aspireupdate/"
+msgstr "https://docs.aspirepress.org/aspireupdate/"
 
 #. Author of the plugin
 #: aspire-update.php
 msgid "AspirePress"
 msgstr "AspirePress"
 
-#. Author URI of the plugin
-#: aspire-update.php includes/class-branding.php:99
-#: includes/class-branding.php:114 includes/class-branding.php:127
-msgid "https://docs.aspirepress.org/aspireupdate/"
-msgstr "https://docs.aspirepress.org/aspireupdate/"
+#. Description of the plugin
+#: aspire-update.php
+msgid "Update plugins and themes for WordPress."
+msgstr "Aktualisiert Plugins und Themes für WordPress."
 
-#: includes/class-admin-settings.php:155
-msgid "Settings have been reset to default."
-msgstr "Einstellungen wurden auf die Standardwerte zurückgesetzt."
-
-#: includes/class-admin-settings.php:171
-msgid "Settings Saved"
-msgstr "Einstellungen gespeichert"
-
-#: includes/class-admin-settings.php:362
-msgid "Unexpected Error"
-msgstr "Unerwarteter Fehler"
-
-#: includes/class-admin-settings.php:418
-msgid "API Configuration"
-msgstr "API-Konfiguration"
-
-#: includes/class-admin-settings.php:429
-msgid "Enable AspireUpdate API Rewrites"
-msgstr "Aktivieren der AspireUpdate API-Umschreibungen"
-
-#: includes/class-admin-settings.php:443
-msgid "API Host"
-msgstr "API-Host"
-
-#: includes/class-admin-settings.php:476
-msgid "Other"
-msgstr "Andere"
-
-#: includes/class-admin-settings.php:485
-msgid "API Key"
-msgstr "API-Schlüssel"
-
-#: includes/class-admin-settings.php:493
-msgid "Provides an API key for repositories that may require authentication."
-msgstr "Stellt einen API-Schlüssel für Repositories bereit, die möglicherweise eine Authentifizierung erfordern."
+#. Plugin URI of the plugin
+#: aspire-update.php
+msgid "https://aspirepress.org/"
+msgstr "https://aspirepress.org/"
 
 #. Plugin Name of the plugin
-#: aspire-update.php
+#: aspire-update.php includes/class-branding.php:160
 msgid "AspireUpdate"
 msgstr "AspireUpdate"
-
-#: includes/class-admin-settings.php:511
-msgid "Enable Debug Mode"
-msgstr "Debug-Modus aktivieren"
-
-#: includes/class-admin-settings.php:519
-msgid "Enables debug mode for the plugin."
-msgstr "Aktiviert den Debug-Modus für das Plugin."
-
-#: includes/class-admin-settings.php:526
-msgid "Enable Debug Type"
-msgstr "Debug-Typ aktivieren"
-
-#: includes/class-admin-settings.php:535
-msgid "Request"
-msgstr "Anfrage"
-
-#: includes/class-admin-settings.php:536
-msgid "Response"
-msgstr "Antwort"
-
-#: includes/class-admin-settings.php:537
-msgid "String"
-msgstr "Zeichenkette"
-
-#: includes/class-admin-settings.php:539
-msgid "Outputs the request URL and headers / response headers and body / string that is being rewritten."
-msgstr "Gibt die Anfrage-URL und Header / Antwort-Header und -Body / Zeichenfolge aus, die umgeschrieben wird."
-
-#: includes/class-admin-settings.php:545
-msgid "Disable SSL Verification"
-msgstr "SSL-Überprüfung deaktivieren"
-
-#: includes/class-admin-settings.php:554
-msgid "Disables the verification of SSL to allow local testing."
-msgstr "Deaktiviert die SSL-Überprüfung, um lokale Tests zu ermöglichen."
-
-#: includes/class-admin-settings.php:621
-msgid "Generate API Key"
-msgstr "API-Schlüssel generieren"
-
-#. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:97
-msgid "Your plugin updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr "Deine Plugin-Updates werden jetzt von <strong>%1$s</strong> bereitgestellt. <a href=\"%2$s\">Mehr erfahren</a>"
-
-#. translators: 1: The name of the plugin, 2: The documentation URL.
-#: includes/class-branding.php:112
-msgid "Your theme updates are now powered by <strong>%1$s</strong>. <a href=\"%2$s\">Learn more</a>"
-msgstr "Deine Theme-Updates werden jetzt von <strong>%1$s</strong> bereitgestellt. <a href=\"%2$s\">Mehr erfahren</a>"
